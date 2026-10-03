@@ -1,0 +1,10 @@
+{
+  "locations": [
+    {"id":"canteen","name":"Main Canteen","category":"food","icon":"🍜","area":"Block A · Ground Floor","users":34,"capacity":42,"reports":29,"confirmations":36,"urgency":4,"accent":"peach","description":"Hot meals, snacks and drinks during peak class breaks."},
+    {"id":"cafe","name":"Campus Café","category":"food","icon":"☕","area":"Block B · Courtyard","users":8,"capacity":26,"reports":11,"confirmations":8,"urgency":2,"accent":"lavender","description":"Quick coffee, sandwiches and grab-and-go food."},
+    {"id":"printing-a","name":"Print Hub A","category":"print","icon":"🖨️","area":"Library · Level 1","users":13,"capacity":10,"reports":18,"confirmations":25,"urgency":4,"accent":"butter","description":"Student printing and document services."},
+    {"id":"printing-b","name":"Print Hub B","category":"print","icon":"📄","area":"Admin Block · Lobby","users":3,"capacity":10,"reports":7,"confirmations":5,"urgency":2,"accent":"mint","description":"Secondary printing point with shorter queues."},
+    {"id":"library","name":"Library Commons","category":"study","icon":"📚","area":"Library · Ground Floor","users":62,"capacity":120,"reports":12,"confirmations":18,"urgency":2,"accent":"sky","description":"Quiet study tables and collaborative seating."},
+    {"id":"sports","name":"Sports Complex","category":"sports","icon":"🏀","area":"South Court","users":22,"capacity":70,"reports":6,"confirmations":9,"urgency":1,"accent":"rose","description":"Indoor and outdoor sports activity zones."}
+  ]
+}

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHRIST FLOW — Make your next campus decision smarter.</title>
+  <meta name="description" content="A C-powered campus flow prototype for CHRIST University Delhi NCR." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div><div class="ambient ambient-c"></div>
+
+  <nav class="nav glass">
+    <a class="brand" href="#top"><span class="brand-dot"></span> CHRIST <b>FLOW</b></a>
+    <div class="nav-links"><a href="#problem">Problem</a><a href="#flow">How it works</a><a href="#live">Live campus</a><a href="#impact">Impact</a></div>
+    <a class="nav-cta" href="#live">Try prototype <span>↗</span></a>
+  </nav>
+
+  <main id="top">
+    <section class="hero-scrolly" aria-label="Christ Flow introduction">
+      <div class="hero-stage">
+        <div class="cgi-scene" aria-hidden="true">
+          <div class="orb orb-1"></div><div class="orb orb-2"></div><div class="orb orb-3"></div>
+          <div class="campus-grid"></div>
+          <div class="flow-line line-1"></div><div class="flow-line line-2"></div><div class="flow-line line-3"></div>
+          <div class="mini-card card-a"><span>🍜</span><strong>34</strong><small>people</small></div>
+          <div class="mini-card card-b"><span>☕</span><strong>08</strong><small>people</small></div>
+          <div class="mini-card card-c"><span>🖨️</span><strong>03</strong><small>waiting</small></div>
+          <div class="phone-frame"><div class="phone-notch"></div><div class="phone-ui"><span>12:48 PM</span><b>campus flow</b><div class="phone-map"><i></i><i></i><i></i><i></i></div><div class="phone-result"><span>BEST OPTION</span><strong>Campus Café</strong><small>Save ~13 minutes</small></div></div></div>
+        </div>
+        <div class="hero-copy copy-1"><p class="eyebrow">A C-powered campus intelligence prototype</p><h1>How much of<br>college do we<br><em>spend waiting?</em></h1></div>
+        <div class="hero-copy copy-2"><p class="eyebrow">The 20-minute problem</p><h2>You have 20 minutes<br>before your next class.</h2><p class="hero-sub">You reach the canteen. The queue is already longer than your patience.</p></div>
+        <div class="hero-copy copy-3"><p class="eyebrow">The blind decision</p><h2>Wait?<br>Skip lunch?<br>Go somewhere else?</h2><p class="hero-sub">The campus has information. We just don't see it when we need it.</p></div>
+        <div class="hero-copy copy-4"><p class="eyebrow">Meet the solution</p><h2 class="display">CHRIST<br><span>FLOW</span></h2><p class="hero-sub">Make your next campus decision smarter.</p><a class="hero-button" href="#live">Enter the prototype <span>↓</span></a></div>
+        <div class="scroll-cue"><span>SCROLL TO EXPERIENCE</span><i></i></div>
+      </div>
+    </section>
+
+    <section class="problem section-pad" id="problem">
+      <div class="section-kicker">01 / THE PROBLEM</div>
+      <div class="problem-grid">
+        <div><h2 class="huge">The campus is<br><em>moving.</em><br>We are guessing.</h2></div>
+        <div class="problem-copy"><p class="lead">Every day, students make tiny campus decisions with almost no live context.</p><div class="question-card glass"><span>01</span><strong>Can you tell which food point is crowded right now?</strong><b>Probably not.</b></div><div class="question-card glass"><span>02</span><strong>Can you know whether a print queue is worth crossing campus for?</strong><b>Usually not.</b></div><div class="question-card glass"><span>03</span><strong>Can you choose the fastest option before you start walking?</strong><b>That's the gap.</b></div></div>
+      </div>
+    </section>
+
+    <section class="reveal-statement">
+      <div class="statement-inner"><span>SO WE ASKED:</span><h2>What if the campus could<br><em>show you its flow?</em></h2></div>
+    </section>
+
+    <section class="how section-pad" id="flow">
+      <div class="section-kicker">02 / THE ENGINE</div>
+      <div class="section-heading"><h2>Simple inputs.<br><em>Useful decisions.</em></h2><p>CHRIST FLOW turns crowd signals into a clear next action. The visual layer is web technology. The decision engine is written in C.</p></div>
+      <div class="pipeline">
+        <div class="pipe-card glass"><span>01</span><div class="pipe-icon">👥</div><h3>Observe</h3><p>Current users, capacity, reports and confirmations.</p></div><div class="pipe-arrow">→</div>
+        <div class="pipe-card glass"><span>02</span><div class="pipe-icon">⚙️</div><h3>Calculate</h3><p>C processes occupancy, wait time, flow score and priority.</p></div><div class="pipe-arrow">→</div>
+        <div class="pipe-card glass"><span>03</span><div class="pipe-icon">🧭</div><h3>Recommend</h3><p>Compare available options and surface the strongest one.</p></div><div class="pipe-arrow">→</div>
+        <div class="pipe-card glass"><span>04</span><div class="pipe-icon">⏱️</div><h3>Save time</h3><p>Show the student what they can gain by choosing differently.</p></div>
+      </div>
+      <div class="code-card glass"><div class="code-top"><span></span><span></span><span></span><b>pulse_engine.c</b></div><pre><code><i>int</i> occupancy = (users * 100) / capacity;
+
+<i>if</i> (occupancy >= 81)
+    status = <u>"VERY BUSY"</u>;
+<i>else if</i> (occupancy >= 61)
+    status = <u>"BUSY"</u>;
+<i>else</i>
+    status = <u>"LOW CROWD"</u>;</code></pre><div class="code-caption">The C engine behind the glass.</div></div>
+    </section>
+
+    <section class="live section-pad" id="live">
+      <div class="section-kicker">03 / LIVE PROTOTYPE</div>
+      <div class="live-head"><div><h2>What should I do <em>right now?</em></h2><p>Prototype data simulates a campus snapshot. Every card below is scored by the C engine.</p></div><div class="engine-pill"><span class="pulse"></span><b id="engine-status">C ENGINE CHECKING</b></div></div>
+      <div class="decision-bar glass"><div><span class="tiny-label">I HAVE</span><strong id="timeValue">15</strong><span>minutes</span></div><input id="timeRange" type="range" min="5" max="45" value="15"><div class="goal-pills"><button class="goal active" data-goal="food">🍜 Eat</button><button class="goal" data-goal="print">🖨 Print</button><button class="goal" data-goal="study">📚 Study</button><button class="goal" data-goal="sports">🏀 Move</button></div></div>
+      <div id="recommendation" class="recommendation glass"></div>
+      <div id="locationGrid" class="location-grid"></div>
+    </section>
+
+    <section class="impact section-pad" id="impact">
+      <div class="section-kicker">04 / THE BIGGER IDEA</div>
+      <div class="impact-grid"><div><h2 class="huge">Small decisions.<br><em>Collective time.</em></h2><p class="lead">If thousands of students save a few minutes a day, the campus gains something bigger than convenience: recovered time.</p></div><div class="impact-number glass"><span>PROTOTYPE IMPACT MODEL</span><strong id="timeSaved">162</strong><b>hours</b><p>illustrative collective time saved</p></div></div>
+      <div class="impact-strip"><div><b>1,284</b><span>decisions assisted</span></div><div><b>9,742</b><span>minutes modeled</span></div><div><b>06</b><span>campus points</span></div><div><b>C</b><span>core engine</span></div></div>
+    </section>
+
+    <section class="final-cta">
+      <div class="final-orbit"></div><div class="final-copy"><p class="eyebrow">A first-year BCA prototype</p><h2>The web is the interface.<br><em>C is the brain.</em></h2><p>Built around a simple question: can technology help students spend less time waiting and more time doing?</p><a class="hero-button" href="#live">Explore the prototype <span>↗</span></a></div>
+    </section>
+  </main>
+
+  <footer><div>CHRIST FLOW · DELHI NCR</div><div>Prototype · C + Web Stack</div></footer>
+  <script src="/app.js"></script>
+</body>
+</html>

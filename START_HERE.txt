@@ -1,0 +1,17 @@
+CHRIST FLOW — START HERE
+
+1. Open this folder in VS Code.
+2. Make sure Node.js is installed: node --version
+3. Make sure GCC is installed: gcc --version
+4. Open VS Code Terminal.
+5. Run: node server.js
+6. Open: http://localhost:5173
+
+The server automatically tries to compile the C engine if it is not already compiled.
+
+If GCC compilation fails:
+Windows: gcc c-engine/pulse_engine.c -O2 -o c-engine/pulse_engine.exe
+Linux/macOS: gcc c-engine/pulse_engine.c -O2 -o c-engine/pulse_engine
+Then run node server.js again.
+
+IMPORTANT: Do NOT use VS Code Live Server. Use node server.js.
